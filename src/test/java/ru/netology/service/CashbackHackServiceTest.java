@@ -8,7 +8,7 @@ class CashbackHackServiceTest {
     @Test
     /*
     Проверяет, что сервис возвращает 1000 рублей
-    при покупке на сумму 0 рублей.
+    при покупке на сумму 0 рублей
     */
     void shouldReturn1000IfAmountIs0() {
         CashbackHackService service = new CashbackHackService();
