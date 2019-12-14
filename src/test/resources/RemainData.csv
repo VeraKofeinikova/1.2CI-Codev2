@@ -1,0 +1,4 @@
+amount, expectedResult, message
+900,100, Should return 100 If amount is 900
+1000, 0, Should return 0 If amount is 1000
+1100, 900, Should return 900 If amount is 1100
